@@ -7,12 +7,12 @@ import OtherProjects from "./components/OtherProjects";
 function App() {
   return (
     <div className="flex flex-col justify-center items-center text-3xl text-gray-800">
-      {<Nav />}
-      {<Intro />}
-      {<Lodge />}
-      {<OtherProjects />}
-      {<LetsConnect />}
-    </div >
+      <Nav />
+      <Intro />
+      <Lodge />
+      <OtherProjects />
+      <LetsConnect />
+    </div>
   );
 }
 

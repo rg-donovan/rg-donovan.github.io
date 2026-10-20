@@ -29,14 +29,14 @@ const Project = ({ img, title, description, tech }) => {
 
   return (
     <div
-      className={`flex flex-col items-left mb-24 rounded-lg border shadow-lg pb-8 cursor-default transform transition duration-300 ease-out ${isActive ? "-translate-y-2" : "translate-y-0"}`}
+      className={`flex flex-col mb-24 rounded-lg border shadow-lg pb-8 cursor-default transform transition duration-300 ease-out ${isActive ? "-translate-y-2" : "translate-y-0"}`}
       onMouseOver={() => setIsActive(true)}
       onMouseLeave={() => setIsActive(false)}
     >
       <div className="bg-gray-200 p-6 flex justify-center items-center h-64">
-        <img src={img} alt="the timehub site" className="rounded shadow-md h-52 object-cover" />
+        <img src={img} alt={`Screenshot of ${title}`} className="rounded shadow-md h-52 object-cover" />
       </div>
-      <h4 className={`text-center font-bold text-2x mt-8 mb-4`}>{title}</h4>
+      <h4 className={`text-center font-bold text-2xl mt-8 mb-4`}>{title}</h4>
       <div className="px-4 pb-4 flex-1 flex flex-col text-gray-700">
         <span className="">{description}</span>
         <span className="mt-10 italic">{tech}</span>
@@ -50,7 +50,7 @@ const OtherProjects = () => {
     <div className="flex flex-col leading-9 pt-20 pb-14 w-full justify-center items-center text-left text-2xl max-w-screen-xl">
       <h2 className="text-5xl font-bold mt-8 mb-24">Other Projects</h2>
       <div className="gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-14">
-        {projects.map(p => <Project {...p} />)}
+        {projects.map(p => <Project key={p.title} {...p} />)}
       </div>
     </div>
   );

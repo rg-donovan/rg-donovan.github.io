@@ -26,7 +26,7 @@ const Intro = () => {
         onMouseEnter={wave}
         onMouseOut={() => setIsHovering(false)}
       >
-        <img src={selfie} alt="Its me" className={`w-80 rounded-full shadow-2xl mt-20 transform transition delay-100 duration-200 ${isHovering ? "scale-105" : 'scale-1'}`} />
+        <img src={selfie} alt="Portrait of Regina" className={`w-80 rounded-full shadow-2xl mt-20 transform transition delay-100 duration-200 ${isHovering ? "scale-105" : 'scale-1'}`} />
         <h1 className={`text-5xl font-black my-14 transform transition duration-100 delay-100 ${isHovering ? "scale-105" : "scale-1"}`}>
           {"Hi! I'm Regina "}
           <span className={`inline-block transform transition duration-50 ease-in-out ${waveAmount}`}>
@@ -42,7 +42,7 @@ const Intro = () => {
       <span className="mb-10 px-10">
         I most recently worked at <a className="bombbomb" href="https://bombbomb.com/" target="_blank" rel="noreferrer">BombBomb</a> and am currently open to work!
       </span>
-    </div >
+    </div>
   );
 }
 
