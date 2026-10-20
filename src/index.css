@@ -30,10 +30,10 @@ h6 {
 }
 
 @layer utilities {
-  .bombbomb {
-    color: #eb832f;
+  .intuit {
+    color: #236cff;
   }
-  .bombbomb:hover {
-    color: #d16b17;
+  .intuit:hover {
+    color: #1a54c9;
   }
 }
