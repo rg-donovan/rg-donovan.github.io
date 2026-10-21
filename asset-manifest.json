@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "./static/css/main.57683543.chunk.css",
-    "main.js": "./static/js/main.5210ff54.chunk.js",
-    "main.js.map": "./static/js/main.5210ff54.chunk.js.map",
+    "main.css": "./static/css/main.b4995a9e.chunk.css",
+    "main.js": "./static/js/main.b5d89f6e.chunk.js",
+    "main.js.map": "./static/js/main.b5d89f6e.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.d361bcaf.js",
     "runtime-main.js.map": "./static/js/runtime-main.d361bcaf.js.map",
-    "static/js/2.80bc8a08.chunk.js": "./static/js/2.80bc8a08.chunk.js",
-    "static/js/2.80bc8a08.chunk.js.map": "./static/js/2.80bc8a08.chunk.js.map",
+    "static/js/2.69c8352d.chunk.js": "./static/js/2.69c8352d.chunk.js",
+    "static/js/2.69c8352d.chunk.js.map": "./static/js/2.69c8352d.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.57683543.chunk.css.map": "./static/css/main.57683543.chunk.css.map",
-    "static/js/2.80bc8a08.chunk.js.LICENSE.txt": "./static/js/2.80bc8a08.chunk.js.LICENSE.txt",
+    "static/css/main.b4995a9e.chunk.css.map": "./static/css/main.b4995a9e.chunk.css.map",
+    "static/js/2.69c8352d.chunk.js.LICENSE.txt": "./static/js/2.69c8352d.chunk.js.LICENSE.txt",
     "static/media/Lodge_logo_side.fc319ca5.svg": "./static/media/Lodge_logo_side.fc319ca5.svg",
-    "static/media/Regina_Resume.9858e0e8.pdf": "./static/media/Regina_Resume.9858e0e8.pdf",
+    "static/media/Regina_Resume.b05ce8e5.pdf": "./static/media/Regina_Resume.b05ce8e5.pdf",
     "static/media/email.b706e653.svg": "./static/media/email.b706e653.svg",
     "static/media/full_diagram.ab211138.png": "./static/media/full_diagram.ab211138.png",
     "static/media/github.40592813.svg": "./static/media/github.40592813.svg",
     "static/media/linkedin.78773bce.svg": "./static/media/linkedin.78773bce.svg",
     "static/media/resume.76504916.svg": "./static/media/resume.76504916.svg",
-    "static/media/selfie.2e3ae521.png": "./static/media/selfie.2e3ae521.png",
+    "static/media/selfie.88cce3d0.png": "./static/media/selfie.88cce3d0.png",
     "static/media/timehub.c8ef00ea.jpeg": "./static/media/timehub.c8ef00ea.jpeg",
     "static/media/todos.9068e424.jpg": "./static/media/todos.9068e424.jpg",
     "static/media/trello.77fff80c.png": "./static/media/trello.77fff80c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d361bcaf.js",
-    "static/js/2.80bc8a08.chunk.js",
-    "static/css/main.57683543.chunk.css",
-    "static/js/main.5210ff54.chunk.js"
+    "static/js/2.69c8352d.chunk.js",
+    "static/css/main.b4995a9e.chunk.css",
+    "static/js/main.b5d89f6e.chunk.js"
   ]
 }
