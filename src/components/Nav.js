@@ -15,13 +15,13 @@ const Nav = () => {
         <InfoIcon fill={isVisible ? "#6366F1" : "#1f232b"} />
       </div>
       <nav className={`relative z-0 mt-8 flex flex-col items-center gap-4 transform transition duration-500 ease-in-out ${isVisible ? "translate-y-0" : "-translate-y-96"}`}>
-        {links.map(({ label, href, icon, external }) => (
+        {links.map(({ label, href, icon, external, navClass }) => (
           <a
             key={label}
             href={href}
             aria-label={label}
             {...(external && { target: "_blank", rel: "noreferrer" })}
-            className="hover:bg-indigo-500 bg-gray-800 w-14 p-1 rounded-full"
+            className={`hover:bg-indigo-500 bg-gray-800 w-14 rounded-full ${navClass}`}
           >
             <img src={icon} alt="" />
           </a>

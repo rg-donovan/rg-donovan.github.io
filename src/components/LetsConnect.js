@@ -7,14 +7,14 @@ const LetsConnect = () => {
         <h2 className="text-4xl font-black pb-4">Let's Connect!</h2>
         <p className="pb-10">It's always great meeting new people! Feel free to connect if you'd like to talk.</p>
         <div className="grid gap-4 grid-rows-2 grid-cols-2 text-white xl:grid-rows-1 xl:grid-cols-4">
-          {links.map(({ label, href, icon, external }) => (
+          {links.map(({ label, href, icon, external, iconClass }) => (
             <a
               key={label}
               href={href}
               {...(external && { target: "_blank", rel: "noreferrer" })}
               className="transform transition ease-in-out duration-150 py-3 hover:bg-indigo-600 bg-indigo-500 flex justify-center items-center rounded-lg shadow-lg"
             >
-              <img src={icon} alt="" className="inline w-10 mr-2" />
+              <img src={icon} alt="" className={`inline ${iconClass}`} />
               {label}
             </a>
           ))}
